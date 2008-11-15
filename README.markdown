@@ -2,12 +2,12 @@
 
 This is only a toy project at the moment. It's an exercise for me to learn more about Ruby.
 
-#Example Application:
+#Example Program:
 
-urls = { 
-  '/', 'index',
-  '/users', 'users',
-}
+  urls = { 
+    '/', 'index',
+    '/users', 'users',
+  }
 
   class Index
     def get

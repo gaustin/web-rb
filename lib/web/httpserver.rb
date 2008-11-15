@@ -23,7 +23,7 @@ module Web
     end
     
     def start
-      @http_server = Mongrel::HttpServer.new("0.0.0.0", "3000")
+      @http_server = Mongrel::HttpServer.new(@options[:ip], @options[:port])
       
       @routes.each do |path, controller|
         @http_server.register(path, Web::HttpHandler.new(controller.new))

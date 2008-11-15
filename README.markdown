@@ -3,7 +3,7 @@
 This is only a toy project at the moment. It's an exercise for me to learn more about Ruby.
 
 #Example Application:
-`
+
 urls = { 
   '/', 'index',
   '/users', 'users',
@@ -22,4 +22,3 @@ class Users
 end
 
 Web.start(urls)
-`

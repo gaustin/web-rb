@@ -4,21 +4,21 @@ This is only a toy project at the moment. It's an exercise for me to learn more 
 
 #Example Program:
 
-  urls = { 
+    urls = { 
     '/', 'index',
     '/users', 'users',
-  }
+    }
 
-  class Index
+    class Index
     def get
       "<b>hello there, gentlemen!</b>"
     end
-  end
+    end
 
-  class Users
+    class Users
     def get
       "<b> you don't need this</b>"
     end
-  end
+    end
 
-  Web.start(urls)
+    Web.start(urls)

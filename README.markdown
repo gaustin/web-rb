@@ -5,20 +5,20 @@ This is only a toy project at the moment. It's an exercise for me to learn more 
 #Example Program:
 
     urls = { 
-    '/', 'index',
-    '/users', 'users',
+        '/', 'index',
+        '/users', 'users',
     }
 
     class Index
-    def get
-      "<b>hello there, gentlemen!</b>"
-    end
+        def get
+            "<b>hello there, gentlemen!</b>"
+        end
     end
 
     class Users
-    def get
-      "<b> you don't need this</b>"
-    end
+        def get
+            "<b> you don't need this</b>"
+        end
     end
 
     Web.start(urls)
